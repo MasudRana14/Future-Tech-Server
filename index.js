@@ -75,9 +75,9 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res)=> {
-    res.send('Technology World is Running on Servrr')
+    res.send('Future Tech is Running on Servrr')
 })
 
 app.listen(port, ()=>{
-    console.log(`Technology World is Running On Port: ${port}`)
+    console.log(`Future Tech is Running On Port: ${port}`)
 })
