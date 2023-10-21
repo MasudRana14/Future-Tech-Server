@@ -49,6 +49,7 @@ app.get('/products/:brand', async(req, res)=>{
       res.send(result);
     }) 
 
+    
 
     app.post('/products', async(req,res)=>{
       const newProduct = req.body
